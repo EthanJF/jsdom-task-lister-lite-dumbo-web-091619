@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     taskText.value = ""
 
     const deleteButton = document.createElement("button")
-    deleteButton.innerText = "Delete"
+    deleteButton.textContent = "Delete"
     newToDo.append(deleteButton)
     
     deleteButton.addEventListener("click", function(){
